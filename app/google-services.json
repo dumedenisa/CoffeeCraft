@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423082461887",
+    "project_id": "coffeecraft-1401b",
+    "storage_bucket": "coffeecraft-1401b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423082461887:android:e48b5d4ebf8ece5325140a",
+        "android_client_info": {
+          "package_name": "com.example.coffeecraft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzto44TQO7SDXWULLZbJhLfXGO28gky9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

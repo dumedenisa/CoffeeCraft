@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/darkBrown"
+    android:layout_height="match_parent"
+    tools:context=".Activity.IntroActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="670dp"
+                android:layout_weight="3"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/intro_pic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/brown_gradient"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cofee Craft"
+                    android:layout_marginStart="24dp"
+                    android:textColor="#EFE3C8"
+                    android:textStyle="bold"
+                    android:layout_marginTop="24dp"
+                    android:textSize="31sp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@android:style/Widget.Button"
+                    android:layout_marginTop="32dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="24dp"
+                    android:id="@+id/startBtn"
+                    android:background="#EFE3C8"
+                    android:textColor="@color/darkBrown"
+                    android:textStyle="bold"
+                    android:layout_width="110dp"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"
+                    android:text="Started" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
